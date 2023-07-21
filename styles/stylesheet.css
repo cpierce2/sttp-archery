@@ -172,14 +172,30 @@ footer {
     background-image: url("../sttpa-pics/footer-img.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 15rem;
+    height: 18rem;
     color: white;
 }
 
-.ndp-title {
-    color: white;
-    font-weight: bolder;
-    font-size: 36px;
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-container {
+    width: 40rem;
+    height: auto;
+    flex-flow: row wrap;
+}
+
+.footer-nav {
+font-size: 16pt;
+}
+
+aside {
+    float: right;
+    padding-left: 2rem;
 }
 
 nav {
@@ -207,10 +223,6 @@ a:hover {
     font-size: x-large;
 }
 
-.footer-nav {
-    text-align: center;
-}
-
 footer p {
     align-self: end;
 }
@@ -233,6 +245,7 @@ width: 50px;
 
 .vid-container {
     grid-area: 1/2/2/3;
+    padding-left: 10rem;
 }
 
 .index-container {
@@ -241,4 +254,16 @@ width: 50px;
     margin-left: 1rem;
     margin-right: 1rem;
     grid-gap: 5rem 5rem;
+}
+
+.index-address {
+    font-weight: bolder;
+    font-size: 14pt;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-logo {
+    height: 2.5em;
+    width: 4em;
 }
