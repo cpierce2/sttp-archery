@@ -163,6 +163,7 @@ h1 {
     padding-left: 40%;
     font-size: larger;
     font-weight: bolder;
+    color: #ecb722;
 }
 
 .map {
@@ -188,6 +189,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    margin-top: 2rem;
 }
 
 .footer-container {
@@ -293,6 +295,12 @@ width: 50px;
 }
 
 .registration h1 {
+    animation: blink .3s infinite alternate;
+    font-size: 36pt;
+    color: #444444;
+}
+
+.contact-us {
     animation: blink .3s infinite alternate;
     font-size: 36pt;
     color: #444444;
@@ -430,4 +438,30 @@ width: 50px;
 .about-container ul {
     padding-left: 25%;
     padding-right: 25%;
+}
+
+.grid-quote {
+    grid-area: 1/1/2/2;
+    border: 10pt solid #ecb722;
+}
+
+.grid-quote i {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.grid-pics {
+    grid-area: 1/2/2/3;
+    padding-left: 10%;
+}
+
+.block-quote {
+    width: 50%;
+    font-size: 20pt;
+    color: #03a3df;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20%;
+    grid-template-columns: 50%;
+    grid-template-rows: 50%;
 }
