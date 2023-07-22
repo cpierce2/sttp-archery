@@ -395,3 +395,30 @@ width: 50px;
     grid-area: 4/1/5/2;
     padding-left: 60%;
 }
+
+.about-container {
+    display: grid;
+    border: 25pt solid #1b447f;
+    background-color: #03a3df;
+    background-image: url("../sttpa-pics/archeryAcademy-logo-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    grid-gap: 2rem 2rem;
+    font-size: 16pt;
+    font-weight: bolder;
+}
+
+.about-container p {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.about-container ul {
+    padding-left: 25%;
+    padding-right: 25%;
+}
