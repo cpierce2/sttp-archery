@@ -267,3 +267,26 @@ width: 50px;
     height: 2.5em;
     width: 4em;
 }
+
+.registration {
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 2rem;
+    padding-bottom: 3em;
+}
+
+@keyframes blink {
+    50% {
+        text-shadow: 3px 2px 2.5px #ecb722;
+    }
+
+    100% {
+        text-shadow: 6px 4px 5px #03a3df;
+    }
+}
+
+.registration h1 {
+    animation: blink .3s infinite alternate;
+    font-size: 36pt;
+    color: #444444;
+}
